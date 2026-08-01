@@ -1,3 +1,7 @@
+Command to run: .venv\Scripts\python.exe -m flask run --port 5001
+
+
+
 # Smart Quiz Generator (Web)
 
 A modern quiz web app (Flask) that fetches questions from the Open Trivia Database.
