@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "question": "Which data structure follows FIFO?",
+    "options": ["Stack", "Queue", "Tree", "Graph"],
+    "answer": "Queue",
+    "explanation": "Queue follows FIFO (First In First Out)."
+  },
+  {
+    "id": 2,
+    "question": "What is the time complexity of Binary Search?",
+    "options": ["O(n)", "O(log n)", "O(n^2)", "O(1)"],
+    "answer": "O(log n)",
+    "explanation": "Binary search divides the search space into half every time."
+  },
+  {
+    "id": 3,
+    "question": "Which keyword is used to create a class in Python?",
+    "options": ["def", "function", "class", "struct"],
+    "answer": "class",
+    "explanation": "The class keyword is used to define a class in Python."
+  },
+  {
+    "id": 4,
+    "question": "Which data structure uses LIFO?",
+    "options": ["Queue", "Stack", "Array", "Linked List"],
+    "answer": "Stack",
+    "explanation": "Stack follows LIFO (Last In First Out)."
+  },
+  {
+    "id": 5,
+    "question": "Which of the following is not a programming language?",
+    "options": ["Python", "Java", "HTML", "C"],
+    "answer": "HTML",
+    "explanation": "HTML is a markup language, not a programming language."
+  },
+  {
+    "id": 6,
+    "question": "What is the output of print(2 ** 3)?",
+    "options": ["6", "8", "9", "5"],
+    "answer": "8",
+    "explanation": "2 ** 3 means 2 to the power of 3, which equals 8."
+  },
+  {
+    "id": 7,
+    "question": "Which of these is a mutable data type in Python?",
+    "options": ["Tuple", "String", "List", "Integer"],
+    "answer": "List",
+    "explanation": "Lists are mutable, meaning you can change their elements after creation."
+  },
+  {
+    "id": 8,
+    "question": "What does API stand for?",
+    "options": ["Application Programming Interface", "Advanced Programming Instruction", "Application Process Integration", "Advanced Process Interface"],
+    "answer": "Application Programming Interface",
+    "explanation": "API stands for Application Programming Interface, used for software communication."
+  },
+  {
+    "id": 9,
+    "question": "Which loop structure will always execute at least once?",
+    "options": ["while loop", "for loop", "do-while loop", "if statement"],
+    "answer": "do-while loop",
+    "explanation": "A do-while loop executes the body at least once before checking the condition."
+  },
+  {
+    "id": 10,
+    "question": "What is the main purpose of a database index?",
+    "options": ["Increase data security", "Speed up data retrieval", "Reduce storage space", "Backup data"],
+    "answer": "Speed up data retrieval",
+    "explanation": "Database indexes improve query performance by allowing faster data lookups."
+  },
+  {
+    "id": 11,
+    "question": "Which sorting algorithm has the best average time complexity?",
+    "options": ["Bubble Sort O(n²)", "Quick Sort O(n log n)", "Selection Sort O(n²)", "Insertion Sort O(n²)"],
+    "answer": "Quick Sort O(n log n)",
+    "explanation": "Quick Sort typically has O(n log n) average time complexity, making it very efficient."
+  },
+  {
+    "id": 12,
+    "question": "What is the difference between '==' and 'is' in Python?",
+    "options": ["No difference", "'==' checks value, 'is' checks identity", "'is' checks value, '==' checks identity", "Both check memory address"],
+    "answer": "'==' checks value, 'is' checks identity",
+    "explanation": "'==' compares values while 'is' checks if they refer to the same object in memory."
+  },
+  {
+    "id": 13,
+    "question": "Which HTTP method is used to request data?",
+    "options": ["POST", "GET", "PUT", "DELETE"],
+    "answer": "GET",
+    "explanation": "GET is the HTTP method used to request data from a server."
+  },
+  {
+    "id": 14,
+    "question": "What is the time complexity of accessing an element in an array by index?",
+    "options": ["O(n)", "O(n²)", "O(1)", "O(log n)"],
+    "answer": "O(1)",
+    "explanation": "Array access by index is constant time O(1) because elements are stored contiguously."
+  },
+  {
+    "id": 15,
+    "question": "Which of these is NOT a feature of Object-Oriented Programming?",
+    "options": ["Encapsulation", "Inheritance", "Polymorphism", "Compilation"],
+    "answer": "Compilation",
+    "explanation": "Compilation is not an OOP feature; it's a language processing step. The key OOP features are encapsulation, inheritance, and polymorphism."
+  }
+]

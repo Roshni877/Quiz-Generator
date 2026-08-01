@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Quiz Generator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">🎓 Smart Quiz Generator</span>
+            <a href="{{ url_for('index') }}" class="btn btn-outline-light">Home</a>
+        </div>
+    </nav>
+
+    <div class="hero-section text-center">
+        <div class="container py-5">
+            <h1 class="display-4 fw-bold text-white">🎓 Welcome to Quiz Generator</h1>
+            <p class="lead text-light">Test your knowledge with thousands of questions across different categories</p>
+            <a href="{{ url_for('categories') }}" class="btn btn-lg btn-primary mt-4">
+                Start Quiz ➜
+            </a>
+        </div>
+    </div>
+
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-md-4 text-center mb-4">
+                <div class="feature-box">
+                    <h3>🌐</h3>
+                    <h5>Thousands of Questions</h5>
+                    <p>Access a vast database of questions updated constantly</p>
+                </div>
+            </div>
+            <div class="col-md-4 text-center mb-4">
+                <div class="feature-box">
+                    <h3>📚</h3>
+                    <h5>Multiple Categories</h5>
+                    <p>Choose from science, history, sports, and much more</p>
+                </div>
+            </div>
+            <div class="col-md-4 text-center mb-4">
+                <div class="feature-box">
+                    <h3>📊</h3>
+                    <h5>Detailed Results</h5>
+                    <p>Get comprehensive feedback on every answer</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <p>&copy; 2025 Smart Quiz Generator. Roshni. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
