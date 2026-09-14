@@ -1,44 +1,40 @@
-# Smart Quiz Generator (Web)
+# 🎓 Smart Quiz Generator
 
-A modern quiz web app (Flask) that fetches questions from the Open Trivia Database.
+A high-performance, fully scrollable Quiz Generator application built with Python (Tkinter & Flask). Features instant 0ms question loading, comprehensive category banks, interactive review, and downloadable study plans.
 
-## Quick start (Windows - PowerShell)
+---
 
-1. Open PowerShell and change to the project directory:
+## 🚀 How to Run
 
-```powershell
-cd "d:\Quiz Generator using Python"
+To launch the Quiz application, open your terminal or command prompt in the project directory and run:
+
+```bash
+python quiz_app.py
 ```
 
-2. (Optional) Activate the virtual environment if you created one:
+### Alternative: Flask Web Application
 
-```powershell
-. .venv\Scripts\Activate.ps1
-```
+If you prefer using the Web interface in your browser, run:
 
-3. Install dependencies (if needed):
-
-```powershell
-.venv\Scripts\python.exe -m pip install -r requirements.txt
-# or if not using the venv python: python -m pip install -r requirements.txt
-```
-
-4. Run the web server:
-
-```powershell
-# Use the venv python if available
-.venv\Scripts\python.exe app.py
-# OR
+```bash
 python app.py
 ```
 
-5. Open the app in your browser:
+Then open `http://127.0.0.1:5000` in your web browser (or double-click `run.bat`).
 
-```
-http://127.0.0.1:5000
-```
+---
 
-## Notes
-- If you prefer `flask run`, set `FLASK_APP=app.py` then `flask run`.
-- If the app cannot reach the Open Trivia API, it will use `questions.json` as a fallback.
-- To stop the server press `Ctrl+C` in the terminal.
+## ⚡ Features & Key Improvements
+
+- **Instant Question Delivery (0ms delay)**: Instant 0ms question fetching using pre-indexed local databases and memory caching. No more waiting for slow network requests!
+- **100% Scrollable UI**: Full vertical mouse wheel and touchpad scrolling support across all screens in both Desktop GUI (`quiz_app.py`) and Web Interface (`app.py`).
+- **Rich Category Bank**: Built-in questions for Technology, Science, Geography, History, Books, Film, Music, Sports, Politics, and General Knowledge.
+- **Interactive Review & Study Plans**: Detailed answer breakdown with downloadable customized 7-day study plans.
+- **Modern UI Styling**: Sleek glassmorphic dark theme, responsive grid layouts, and polished typography.
+
+---
+
+## 📦 Requirements
+
+- Python 3.8+
+- Dependencies in `requirements.txt` (`Flask`, `requests`)

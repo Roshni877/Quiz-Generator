@@ -1,107 +1,346 @@
 [
   {
     "id": 1,
-    "question": "Which data structure follows FIFO?",
+    "category": "technology",
+    "question": "Which data structure follows FIFO (First In First Out)?",
     "options": ["Stack", "Queue", "Tree", "Graph"],
     "answer": "Queue",
-    "explanation": "Queue follows FIFO (First In First Out)."
+    "explanation": "Queue follows FIFO (First In First Out), where the first element added is the first one removed."
   },
   {
     "id": 2,
-    "question": "What is the time complexity of Binary Search?",
+    "category": "technology",
+    "question": "What is the time complexity of Binary Search on a sorted array?",
     "options": ["O(n)", "O(log n)", "O(n^2)", "O(1)"],
     "answer": "O(log n)",
-    "explanation": "Binary search divides the search space into half every time."
+    "explanation": "Binary search divides the search space in half at each step, giving O(log n) time complexity."
   },
   {
     "id": 3,
+    "category": "technology",
     "question": "Which keyword is used to create a class in Python?",
     "options": ["def", "function", "class", "struct"],
     "answer": "class",
-    "explanation": "The class keyword is used to define a class in Python."
+    "explanation": "The 'class' keyword is used to define a user-defined class in Python."
   },
   {
     "id": 4,
-    "question": "Which data structure uses LIFO?",
+    "category": "technology",
+    "question": "Which data structure follows LIFO (Last In First Out)?",
     "options": ["Queue", "Stack", "Array", "Linked List"],
     "answer": "Stack",
-    "explanation": "Stack follows LIFO (Last In First Out)."
+    "explanation": "Stack operates on LIFO (Last In First Out) principle."
   },
   {
     "id": 5,
-    "question": "Which of the following is not a programming language?",
-    "options": ["Python", "Java", "HTML", "C"],
+    "category": "technology",
+    "question": "Which of the following is a markup language, not a programming language?",
+    "options": ["Python", "Java", "HTML", "C++"],
     "answer": "HTML",
-    "explanation": "HTML is a markup language, not a programming language."
+    "explanation": "HTML (HyperText Markup Language) is a markup language used for structuring web content."
   },
   {
     "id": 6,
-    "question": "What is the output of print(2 ** 3)?",
+    "category": "technology",
+    "question": "What is the output of print(2 ** 3) in Python?",
     "options": ["6", "8", "9", "5"],
     "answer": "8",
-    "explanation": "2 ** 3 means 2 to the power of 3, which equals 8."
+    "explanation": "The ** operator in Python calculates exponentiation: 2 to the power of 3 equals 8."
   },
   {
     "id": 7,
+    "category": "technology",
     "question": "Which of these is a mutable data type in Python?",
     "options": ["Tuple", "String", "List", "Integer"],
     "answer": "List",
-    "explanation": "Lists are mutable, meaning you can change their elements after creation."
+    "explanation": "Lists in Python are mutable, meaning their items can be altered after creation."
   },
   {
     "id": 8,
-    "question": "What does API stand for?",
+    "category": "technology",
+    "question": "What does API stand for in software development?",
     "options": ["Application Programming Interface", "Advanced Programming Instruction", "Application Process Integration", "Advanced Process Interface"],
     "answer": "Application Programming Interface",
-    "explanation": "API stands for Application Programming Interface, used for software communication."
+    "explanation": "API stands for Application Programming Interface, allowing different software systems to communicate."
   },
   {
     "id": 9,
-    "question": "Which loop structure will always execute at least once?",
-    "options": ["while loop", "for loop", "do-while loop", "if statement"],
-    "answer": "do-while loop",
-    "explanation": "A do-while loop executes the body at least once before checking the condition."
+    "category": "general",
+    "question": "What is the largest organ in the human body?",
+    "options": ["Skin", "Liver", "Heart", "Brain"],
+    "answer": "Skin",
+    "explanation": "The skin is the largest organ of the human body in both surface area and weight."
   },
   {
     "id": 10,
-    "question": "What is the main purpose of a database index?",
-    "options": ["Increase data security", "Speed up data retrieval", "Reduce storage space", "Backup data"],
-    "answer": "Speed up data retrieval",
-    "explanation": "Database indexes improve query performance by allowing faster data lookups."
+    "category": "general",
+    "question": "Which element has the chemical symbol 'O'?",
+    "options": ["Gold", "Oxygen", "Osmium", "Zinc"],
+    "answer": "Oxygen",
+    "explanation": "O is the chemical symbol for Oxygen, atomic number 8."
   },
   {
     "id": 11,
-    "question": "Which sorting algorithm has the best average time complexity?",
-    "options": ["Bubble Sort O(n²)", "Quick Sort O(n log n)", "Selection Sort O(n²)", "Insertion Sort O(n²)"],
-    "answer": "Quick Sort O(n log n)",
-    "explanation": "Quick Sort typically has O(n log n) average time complexity, making it very efficient."
+    "category": "general",
+    "question": "What is the official currency of Japan?",
+    "options": ["Yen", "Yuan", "Won", "Dollar"],
+    "answer": "Yen",
+    "explanation": "The Japanese Yen is the official currency of Japan."
   },
   {
     "id": 12,
-    "question": "What is the difference between '==' and 'is' in Python?",
-    "options": ["No difference", "'==' checks value, 'is' checks identity", "'is' checks value, '==' checks identity", "Both check memory address"],
-    "answer": "'==' checks value, 'is' checks identity",
-    "explanation": "'==' compares values while 'is' checks if they refer to the same object in memory."
+    "category": "general",
+    "question": "Which mammal is known to be the largest living animal on Earth?",
+    "options": ["Blue Whale", "African Elephant", "Giraffe", "Colossal Squid"],
+    "answer": "Blue Whale",
+    "explanation": "The Blue Whale is the largest animal ever known to have lived on Earth."
   },
   {
     "id": 13,
-    "question": "Which HTTP method is used to request data?",
-    "options": ["POST", "GET", "PUT", "DELETE"],
-    "answer": "GET",
-    "explanation": "GET is the HTTP method used to request data from a server."
+    "category": "books",
+    "question": "Who wrote the classic novel 'To Kill a Mockingbird'?",
+    "options": ["Harper Lee", "Mark Twain", "Ernest Hemingway", "J.K. Rowling"],
+    "answer": "Harper Lee",
+    "explanation": "Harper Lee published 'To Kill a Mockingbird' in 1960, winning the Pulitzer Prize."
   },
   {
     "id": 14,
-    "question": "What is the time complexity of accessing an element in an array by index?",
-    "options": ["O(n)", "O(n²)", "O(1)", "O(log n)"],
-    "answer": "O(1)",
-    "explanation": "Array access by index is constant time O(1) because elements are stored contiguously."
+    "category": "books",
+    "question": "Who wrote the dystopian novel '1984'?",
+    "options": ["George Orwell", "Aldous Huxley", "Ray Bradbury", "H.G. Wells"],
+    "answer": "George Orwell",
+    "explanation": "George Orwell wrote '1984', depicting a totalitarian regime under Big Brother."
   },
   {
     "id": 15,
-    "question": "Which of these is NOT a feature of Object-Oriented Programming?",
-    "options": ["Encapsulation", "Inheritance", "Polymorphism", "Compilation"],
-    "answer": "Compilation",
-    "explanation": "Compilation is not an OOP feature; it's a language processing step. The key OOP features are encapsulation, inheritance, and polymorphism."
+    "category": "books",
+    "question": "Who wrote 'Pride and Prejudice'?",
+    "options": ["Jane Austen", "Charlotte Brontë", "Emily Brontë", "Mary Shelley"],
+    "answer": "Jane Austen",
+    "explanation": "Jane Austen published 'Pride and Prejudice' anonymously in 1813."
+  },
+  {
+    "id": 16,
+    "category": "books",
+    "question": "Which author created the fantasy world of Middle-earth and wrote 'The Lord of the Rings'?",
+    "options": ["J.R.R. Tolkien", "C.S. Lewis", "George R.R. Martin", "Terry Pratchett"],
+    "answer": "J.R.R. Tolkien",
+    "explanation": "J.R.R. Tolkien wrote 'The Hobbit' and 'The Lord of the Rings'."
+  },
+  {
+    "id": 17,
+    "category": "film",
+    "question": "Who directed the mind-bending sci-fi movie 'Inception'?",
+    "options": ["Christopher Nolan", "Steven Spielberg", "James Cameron", "Quentin Tarantino"],
+    "answer": "Christopher Nolan",
+    "explanation": "Christopher Nolan directed 'Inception', released in 2010."
+  },
+  {
+    "id": 18,
+    "category": "film",
+    "question": "Which actor plays Tony Stark / Iron Man in the Marvel Cinematic Universe?",
+    "options": ["Robert Downey Jr.", "Chris Evans", "Chris Hemsworth", "Mark Ruffalo"],
+    "answer": "Robert Downey Jr.",
+    "explanation": "Robert Downey Jr. portrayed Tony Stark starting with 'Iron Man' in 2008."
+  },
+  {
+    "id": 19,
+    "category": "film",
+    "question": "What color pill does Neo take in 'The Matrix' to discover the truth?",
+    "options": ["Red", "Blue", "Green", "Yellow"],
+    "answer": "Red",
+    "explanation": "Neo takes the red pill to break free from the simulated reality of the Matrix."
+  },
+  {
+    "id": 20,
+    "category": "film",
+    "question": "Which movie won the first Academy Award for Best Animated Feature in 2002?",
+    "options": ["Shrek", "Monsters, Inc.", "Jimmy Neutron", "Toy Story 2"],
+    "answer": "Shrek",
+    "explanation": "DreamWorks' 'Shrek' won the inaugural Academy Award for Best Animated Feature."
+  },
+  {
+    "id": 21,
+    "category": "music",
+    "question": "Who is globally recognized as the 'King of Pop'?",
+    "options": ["Michael Jackson", "Elvis Presley", "Prince", "Freddie Mercury"],
+    "answer": "Michael Jackson",
+    "explanation": "Michael Jackson was dubbed the 'King of Pop' for his legendary contributions to music."
+  },
+  {
+    "id": 22,
+    "category": "music",
+    "question": "Which iconic rock group sang 'Bohemian Rhapsody'?",
+    "options": ["Queen", "The Beatles", "Led Zeppelin", "AC/DC"],
+    "answer": "Queen",
+    "explanation": "'Bohemian Rhapsody' was written by Freddie Mercury and recorded by British rock band Queen."
+  },
+  {
+    "id": 23,
+    "category": "music",
+    "question": "How many strings does a standard acoustic guitar have?",
+    "options": ["6", "4", "5", "8"],
+    "answer": "6",
+    "explanation": "A standard acoustic guitar has 6 strings tuned E-A-D-G-B-E."
+  },
+  {
+    "id": 24,
+    "category": "music",
+    "question": "How many keys are there on a standard full-size piano keyboard?",
+    "options": ["88", "76", "64", "100"],
+    "answer": "88",
+    "explanation": "A standard full-size acoustic piano has 88 keys (52 white keys and 36 black keys)."
+  },
+  {
+    "id": 25,
+    "category": "science",
+    "question": "What is the hardest natural substance found on Earth?",
+    "options": ["Diamond", "Titanium", "Quartz", "Corundum"],
+    "answer": "Diamond",
+    "explanation": "Diamond is a solid form of pure carbon arranged in a crystal lattice, making it the hardest natural mineral."
+  },
+  {
+    "id": 26,
+    "category": "science",
+    "question": "Which organelle is known as the powerhouse of the cell?",
+    "options": ["Mitochondria", "Nucleus", "Ribosome", "Golgi apparatus"],
+    "answer": "Mitochondria",
+    "explanation": "Mitochondria produce ATP through cellular respiration, generating energy for the cell."
+  },
+  {
+    "id": 27,
+    "category": "science",
+    "question": "What is the chemical formula for water?",
+    "options": ["H2O", "CO2", "NaCl", "O2"],
+    "answer": "H2O",
+    "explanation": "Water consists of two Hydrogen atoms covalently bonded to one Oxygen atom (H2O)."
+  },
+  {
+    "id": 28,
+    "category": "science",
+    "question": "Which planet is closest to the Sun in our Solar System?",
+    "options": ["Mercury", "Venus", "Earth", "Mars"],
+    "answer": "Mercury",
+    "explanation": "Mercury is the innermost planet in the Solar System, orbiting closest to the Sun."
+  },
+  {
+    "id": 29,
+    "category": "sports",
+    "question": "How many players per team are on the field during a standard soccer match?",
+    "options": ["11", "10", "9", "12"],
+    "answer": "11",
+    "explanation": "A standard soccer match is played between two teams of 11 players each."
+  },
+  {
+    "id": 30,
+    "category": "sports",
+    "question": "Which country has won the most FIFA World Cup titles in men's football?",
+    "options": ["Brazil", "Germany", "Argentina", "Italy"],
+    "answer": "Brazil",
+    "explanation": "Brazil has won the men's FIFA World Cup a record 5 times (1958, 1962, 1970, 1994, 2002)."
+  },
+  {
+    "id": 31,
+    "category": "sports",
+    "question": "In tennis scoring, what term is used for a score of zero?",
+    "options": ["Love", "Nil", "Zero", "Fault"],
+    "answer": "Love",
+    "explanation": "In tennis, 'Love' represents a score of zero points."
+  },
+  {
+    "id": 32,
+    "category": "sports",
+    "question": "How many rings are featured on the official Olympic flag?",
+    "options": ["5", "4", "6", "7"],
+    "answer": "5",
+    "explanation": "The Olympic flag features 5 interlocking rings representing the 5 inhabited continents of the world."
+  },
+  {
+    "id": 33,
+    "category": "geography",
+    "question": "What is the capital city of France?",
+    "options": ["Paris", "Lyon", "Marseille", "Nice"],
+    "answer": "Paris",
+    "explanation": "Paris is the capital and largest city of France."
+  },
+  {
+    "id": 34,
+    "category": "geography",
+    "question": "What is the largest ocean on Earth?",
+    "options": ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Arctic Ocean"],
+    "answer": "Pacific Ocean",
+    "explanation": "The Pacific Ocean covers over 30% of Earth's surface, making it the largest ocean."
+  },
+  {
+    "id": 35,
+    "category": "geography",
+    "question": "Which is the largest country in the world by land area?",
+    "options": ["Russia", "Canada", "China", "United States"],
+    "answer": "Russia",
+    "explanation": "Russia spans over 17 million square kilometers, making it the largest nation by area."
+  },
+  {
+    "id": 36,
+    "category": "geography",
+    "question": "What is the capital city of Japan?",
+    "options": ["Tokyo", "Kyoto", "Osaka", "Hiroshima"],
+    "answer": "Tokyo",
+    "explanation": "Tokyo is the capital city and economic hub of Japan."
+  },
+  {
+    "id": 37,
+    "category": "history",
+    "question": "In which year did World War II end?",
+    "options": ["1945", "1939", "1918", "1950"],
+    "answer": "1945",
+    "explanation": "World War II officially ended in September 1945."
+  },
+  {
+    "id": 38,
+    "category": "history",
+    "question": "Who was the first President of the United States?",
+    "options": ["George Washington", "Thomas Jefferson", "Abraham Lincoln", "John Adams"],
+    "answer": "George Washington",
+    "explanation": "George Washington served as the first U.S. President from 1789 to 1797."
+  },
+  {
+    "id": 39,
+    "category": "history",
+    "question": "In which year did the RMS Titanic sink?",
+    "options": ["1912", "1905", "1920", "1898"],
+    "answer": "1912",
+    "explanation": "The Titanic struck an iceberg and sank on April 15, 1912."
+  },
+  {
+    "id": 40,
+    "category": "history",
+    "question": "In which year did the Berlin Wall fall, marking the end of the Cold War era?",
+    "options": ["1989", "1991", "1979", "1985"],
+    "answer": "1989",
+    "explanation": "The Berlin Wall fell on November 9, 1989, leading to German reunification."
+  },
+  {
+    "id": 41,
+    "category": "politics",
+    "question": "Where is the primary headquarters of the United Nations located?",
+    "options": ["New York City", "Geneva", "London", "Paris"],
+    "answer": "New York City",
+    "explanation": "The official headquarters of the United Nations is situated in New York City, USA."
+  },
+  {
+    "id": 42,
+    "category": "politics",
+    "question": "How many main branches of government are established by the U.S. Constitution?",
+    "options": ["3", "2", "4", "5"],
+    "answer": "3",
+    "explanation": "The U.S. Constitution sets up 3 branches: Executive, Legislative, and Judicial."
+  },
+  {
+    "id": 43,
+    "category": "politics",
+    "question": "In which city is the Parliament of the European Union officially based?",
+    "options": ["Strasbourg", "Brussels", "Berlin", "Amsterdam"],
+    "answer": "Strasbourg",
+    "explanation": "The official seat of the European Parliament is in Strasbourg, France."
   }
 ]
